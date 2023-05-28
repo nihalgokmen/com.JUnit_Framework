@@ -18,9 +18,8 @@ jobs:
 
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v2
-        id: snake-gif
         with:
-          github_user_name: nihalgokmen
+          github_user_name: ${{ nihalgokmen }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg
